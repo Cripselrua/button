@@ -1,4 +1,4 @@
-"use strict"
+// "use strict"
 //           Делает svg разрешает менять цвет
 // $('img.icon-location').each(function(){
 //     var $img = $(this);
