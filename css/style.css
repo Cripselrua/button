@@ -674,7 +674,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 @media only screen and (max-device-width:825px ) {
     .nav{
-        margin: 39px  3vw;
+        margin: 19px  3vw;
     }
     .header_main{
         margin: 0px 3vw;
@@ -733,7 +733,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         font-size: 15px;
     }
     .section_header{
-        height: 100vh;
+        height: max-content;
     }
 
 }
@@ -744,4 +744,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
 
 }
+
+@media all and ( max-width: 600px) {
+    .section_header{
+        background: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.6) ),url(../img/fon2.jpg) 0 0/100% 100% no-repeat scroll;
+    }
+
+}
+
 
