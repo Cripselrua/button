@@ -890,7 +890,7 @@ body{
     }
 }
 
-@media only screen and (max-device-width:824px ) {
+@media only screen and (max-width:824px ) {
     .nav_menu{
         display: none;
     }
@@ -898,6 +898,26 @@ body{
         display: none;
     }
 }
+@media only screen and (max-width:787px ) {
+    .box_Announcement{
+        zoom: 0.8;
+    }
+
+}
+@media only screen and (max-width:636px ) {
+    .box_Announcement{
+        zoom: 0.7;
+    }
+
+}
+@media only screen and (max-width:566px ) {
+    .box_Announcement{
+        zoom: 0.5;
+    }
+
+}
+
+
 @media only screen and (max-device-width:745px ) {
     .conteinerRight{
         display: none;
