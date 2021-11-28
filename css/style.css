@@ -730,7 +730,7 @@ body{
 
 .wrapper_Announcement {
     margin: 0px  100px;
-    padding: 50px 0px;
+    padding: 25px 0px;
     overflow: hidden;
 }
 .conteiner_Announcement {
@@ -837,25 +837,12 @@ body{
 
 
 /* ========================== объявление скрывать ==================================== */
-.apartment_sale{ 
+.tabs_item{
     display: none;
 }
-.block-open{ 
+.active{ 
     display: block;
 }
-.apartment_buy{ 
-    display: none;
-}
-.block-open{ 
-    display: block;
-}
-.apartment_rent{ 
-    display: none;
-}
-.block-open{ 
-    display: block;
-}
-
 
 
 
