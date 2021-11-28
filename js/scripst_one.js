@@ -48,8 +48,6 @@ if (menuLinks.length > 0) {
         }
     }
 }
-// =========================================================================================================================================
-
 const anchors = document.querySelectorAll('a.menu_link')
 
 for (let anchor of anchors) {
@@ -64,6 +62,22 @@ for (let anchor of anchors) {
     })
   })
 }
+// =========================================================================================================================================
+
+// const anchors = document.querySelectorAll('a.menu_link')
+
+// for (let anchor of anchors) {
+//   anchor.addEventListener('click', function (e) {
+//     e.preventDefault()
+    
+//     const blockID = anchor.getAttribute('href')
+    
+//     document.querySelector(blockID).scrollIntoView({
+//       behavior: 'smooth',
+//       block: 'start'
+//     })
+//   })
+// }
 
 //  скрипт табл
 
