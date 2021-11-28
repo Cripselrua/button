@@ -971,8 +971,8 @@ body{
     justify-content:flex-start;
     }
  }
- .apartment:last-child{
-    float:left;
+ .apartment:nth-last-child{
+    
     }
 
 
