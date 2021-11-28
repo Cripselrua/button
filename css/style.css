@@ -906,14 +906,21 @@ body{
 }
 @media only screen and (max-width:636px ) {
     .box_Announcement{
-        zoom: 0.7;
+        zoom: 0.8;
     }
 
 }
-@media only screen and (max-width:566px ) {
+@media only screen and (max-width:600px ) {
     .box_Announcement{
-        zoom: 0.5;
+        zoom: 0.7;
     }
+    .wrapper_Announcement{
+        margin: 0px 0vw;
+    }
+    .conteiner_Announcement {
+        padding: 6px;
+    }
+    
 
 }
 
