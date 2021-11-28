@@ -1,3 +1,4 @@
+"use strict"
 const menuLinks = document.querySelectorAll('.object[data-goto]');
 if (menuLinks.length > 0) {
     menuLinks.forEach(menuLink => {

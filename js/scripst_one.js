@@ -1,3 +1,4 @@
+"use strict"
 const tabsBtn   = document.querySelectorAll(".object");
 const tabsItems = document.querySelectorAll(".tabs_item");
 
