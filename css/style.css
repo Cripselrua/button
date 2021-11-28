@@ -783,7 +783,7 @@ body{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
     background-position: center;
 }
 .Announcement_box_conteiner{
@@ -925,9 +925,55 @@ body{
     .conteiner_Announcement {
         padding: 6px;
     }
-    
-
-}
+    .box_Announcement{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 250px;
+    }
+    .Announcement_box_conteiner{
+        flex-direction: column;
+    }
+    .Announcement_prise_text{
+        text-align: end;
+    }
+    .Announcement_prise{
+        padding: 0px 15px;
+    }
+    .Announcement_box_title{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+    }
+    .Announcement_box_titleGps{
+        width: auto;
+    }
+    .tabs_item .none{
+        display: none;
+    }
+    .apartment{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    }
+    .Announcement_img{
+        min-width: none; 
+        min-height: none; 
+        max-width: none; 
+        max-height: none;
+        border-radius: 15px
+    }
+ }
+ @media all and ( max-width: 547px) {
+    .apartment{
+    justify-content:flex-start;
+    }
+ }
+ .apartment:last-child{
+    float:left;
+    }
 
 
 @media only screen and (max-device-width:745px ) {
