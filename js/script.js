@@ -1,6 +1,6 @@
 "use strict"
 $(function(){
-  $("#tab_1") .load ("../vip/vip.html"); 
+  $("#tab_1") .load ("/vip/vip.html"); 
 });
  
  $(function(){
