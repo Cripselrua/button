@@ -29,7 +29,7 @@ body .lock{
     
     z-index: 100;
     display: block;
-    position: fixed;
+    position: absolute;
     width: 30px;
     height: 18px;
     left: auto;

@@ -33,14 +33,20 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
 /*--------------------*/
+body{
+    font-family: CConv_FiraMono-Medium sans-serif;
+
+}
 
 
 .wrapper {
-    max-width: 1920px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    background-color: rgb(235, 234, 234);
     
     
 }
@@ -99,7 +105,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .item_menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 5px;
     vertical-align: middle;
@@ -630,6 +635,226 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
+/* =================================    main catalog    ======================================================= */
+.section_MainHeadings{    
+    background-color:#ffffff;
+    width: 100%;
+  
+}
+.wrapper_main{
+    margin: 0px 100px;
+    margin-bottom: 60px;
+    max-width: 1400px;
+    max-height: max-content;
+   
+
+    overflow: hidden;
+    
+    color: #002f34;
+    font-size: 28px;
+}
+.title_MH{
+    margin-top: 50px;
+    display: flex;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+    text-align: center;
+    
+}
+.title_MH h3{
+    padding: 5px;
+}
+.conteiner_headings{
+    flex-wrap: wrap;    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.object a{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-family: 600;
+    cursor: pointer;
+    outline: none;
+    direction: none;
+    color: #002f34;
+    text-align: center;
+    transition: all 0.4s ease 0.0s;
+}
+.object a:hover{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.33);
+    color: #010f3d;
+    
+}
+
+.Headings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: max-content;
+       align-items: center;
+    
+}
+
+
+.Headings div{
+    width: 120px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 29px ;
+    
+}
+
+/* ==============================  section_Announcement  ======================= */
+
+
+
+.section_Announcement {
+    color: #002f34;    
+}
+
+.wrapper_Announcement {
+    margin: 0px  100px;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.conteiner_Announcement {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.title_Announcement {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:900;
+    margin-bottom: 30px;
+}
+.Announcement{
+    
+}
+.box_Announcement{
+    
+    width: 100%;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    transition: 2s;
+    box-shadow: 0px 0px 5px rgb(172, 172, 172);
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.box_Announcement:hover{
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 0px 13px rgb(145, 144, 144);
+    box-shadow: 0px 1px 13px rgb(145, 144, 144);   
+}
+.Announcement_img{
+    min-width: 216px;
+    min-height: 152px;
+    max-width: 216px;
+    max-height: 152px;
+    border-radius: 5px;
+}
+.Announcement_img img{
+    padding: 7px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-position: center;
+}
+.Announcement_box_conteiner{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.Announcement_box_titleGps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 296px;
+}
+.Announcement_box_title {
+    padding-left: 5px;
+    
+}
+.Announcement_box_title a{
+    color: #002f34;
+    font-size: 1.5625em;
+    line-height: 25px;
+    
+}
+.Announcement_box_title:hover a{
+    background-color:#002f345d ;
+    border-radius: 2px;
+
+}
+.Announcement_box_Gps {
+}
+.Announcement_prise {
+    min-width: max-content;
+    padding: 0px 15px 15px 5px;
+    
+}
+.Announcement_prise_text {
+    font-family: Conv_FiraMono-Regular serif ;
+    font-weight: 900;
+    font-size: 1.675em;
+    font-style: normal;
+}
+.Announcement_prise_text span{
+    font-size: 0.800em;
+    
+}
+.Announcement_agreement {
+    font-size: 0,875em;
+    text-align: end;
+    padding-top: 5px;
+}
+
+
+/* ========================== объявление скрывать ==================================== */
+.apartment_sale{ 
+    display: none;
+}
+.block-open{ 
+    display: block;
+}
+.apartment_buy{ 
+    display: none;
+}
+.block-open{ 
+    display: block;
+}
+.apartment_rent{ 
+    display: none;
+}
+.block-open{ 
+    display: block;
+}
 
 
 
@@ -649,27 +874,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ( 22px + 26 * ( 100vw / 1440 )); */
 
 
 @media all and ( max-width: 990px) {
+    
+    .wrapper_main{
+        margin: 0px  3vw;
+    }
+    
     .nav{
         margin: 0px  3vw;
     }
     .header_main{
+        margin: 0px 3vw;
+    }
+    .wrapper_Announcement{
         margin: 0px 3vw;
     }
 }
@@ -694,6 +914,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .conteinerRight{
         display: none;
     }
+}
+@media all and ( max-width: 674px) {
+   .box_Announcement{
+    zoom: calc (0.6px + 0.4 * ( 100vw / 1440));
+   }
 }
 
 
