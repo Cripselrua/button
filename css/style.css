@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*--------------------*/
 body{
+    font-display: swap;
     font-family: CConv_FiraMono-Medium sans-serif;
 }
 
@@ -859,6 +860,10 @@ body{
     text-align: end;
     padding-top: 5px;
 }
+.apartment{
+    display: grid;
+    grid-gap: 12px;
+}
 
 
 /* ========================== объявление скрывать ==================================== */
@@ -972,7 +977,9 @@ body{
         display: none;
     }
     .apartment{
-        display: flex;
+        
+        grid-gap: auto;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5px;
