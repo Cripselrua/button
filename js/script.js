@@ -22,4 +22,34 @@ $(function(){
      	
 
 
-// ================ домов ========================
+// ================ слик-слайдер ========================
+$(document).ready(function(){
+	$('.slider').slick({
+		arrows:true,
+		dots: true,
+		infinite: false,
+		autoplay: false,
+		slidesToShow:7,
+		slidesToScroll: 3,
+		
+		
+		
+		speed:1000,
+		responsive:[
+			{
+				breakpoint: 938,
+				settings: {
+					slidesToShow:5
+				}
+			},
+			{
+				breakpoint: 648,
+				settings: {
+					arrows:false,
+					slidesToShow:4,
+				}
+			}
+		]
+	});
+});
+
